@@ -445,6 +445,10 @@ p { color: var(--muted); line-height: 1.7; }
   object-fit: cover;
   transition: transform 400ms ease;
 }
+.project-media.contain img {
+  object-fit: contain;
+  padding: 24px;
+}
 .project-featured:hover .project-media img { transform: scale(1.03); }
 
 .project-copy {

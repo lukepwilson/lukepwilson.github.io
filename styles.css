@@ -231,7 +231,28 @@ p { color: var(--muted); line-height: 1.7; }
 .hero-text {
   font-size: 1rem;
   max-width: 58ch;
-  margin-bottom: 28px;
+  margin-bottom: 14px;
+}
+.hero-roles {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 58ch;
+}
+.hero-roles li {
+  font-size: 0.9rem;
+  color: var(--text);
+  padding-left: 16px;
+  position: relative;
+}
+.hero-roles li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--cyan);
 }
 
 .hero-actions {

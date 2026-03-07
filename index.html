@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luke Wilson | Communications, RF, RTL, Verification</title>
+    <meta
+      name="description"
+      content="Portfolio for Luke Wilson, an electrical engineer focused on communications systems, RF platforms, RTL design, and digital verification."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top">Luke Wilson</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Communications • RF Systems • RTL • Verification</p>
+            <h1>
+              Building hardware and wireless systems for AI, LEO satellites, and
+              the next generation of telecommunications.
+            </h1>
+            <p class="hero-text">
+              I am Luke Wilson, an electrical engineer from San Diego pursuing
+              graduate study at UC San Diego. My work spans end-to-end OFDM
+              testbeds, near-field MIMO research, synthesizable RTL, digital
+              verification, and transistor-level circuit design.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">View Projects</a>
+              <a class="button button-secondary" href="resumes/Luke-Peter-Wilson.pdf">Resume</a>
+            </div>
+            <ul class="hero-metrics" aria-label="Highlights">
+              <li>
+                <strong>1 GHz</strong>
+                <span>Targeted ML accelerator implementation flow</span>
+              </li>
+              <li>
+                <strong>2×2 MIMO</strong>
+                <span>Near-field wireless testbed with OFDM pipelines</span>
+              </li>
+              <li>
+                <strong>3.1 GHz</strong>
+                <span>Kogge-Stone adder in complementary transistor logic</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <figure class="portrait-card">
+              <img src="images/nice_headshot.jpg" alt="Portrait of Luke Wilson" />
+            </figure>
+            <div class="hero-signal-card">
+              <p class="signal-label">Current focus</p>
+              <ul>
+                <li>Wireless communications research</li>
+                <li>ASIC and RTL implementation</li>
+                <li>Verification-driven hardware development</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="focus-strip" aria-label="Focus areas">
+          <article>
+            <h2>Communications</h2>
+            <p>OFDM, MIMO, channel estimation, equalization, and measurement-driven test workflows.</p>
+          </article>
+          <article>
+            <h2>Digital Design</h2>
+            <p>RTL architecture, synthesis, timing-aware implementation, and ASIC-oriented design tradeoffs.</p>
+          </article>
+          <article>
+            <h2>Verification</h2>
+            <p>SystemVerilog testbenches, waveform debugging, coverage-oriented validation, and hardware bring-up.</p>
+          </article>
+        </section>
+
+        <section class="section-grid" id="projects">
+          <div class="section-heading">
+            <p class="eyebrow">Selected Work</p>
+            <h2>Projects that define the portfolio</h2>
+          </div>
+
+          <article class="project project-featured">
+            <div class="project-copy">
+              <p class="project-type">Wireless Systems Research</p>
+              <h3>Near-Field MIMO Ground Station Testbed</h3>
+              <p>
+                Built an end-to-end OFDM testbed for a near-field MIMO research
+                effort, integrating SDR hardware, Python and MATLAB pipelines,
+                and measurement-driven debugging for CSI extraction and link
+                characterization.
+              </p>
+              <ul class="tag-list">
+                <li>OFDM</li>
+                <li>MIMO</li>
+                <li>Python</li>
+                <li>MATLAB</li>
+                <li>USRP</li>
+              </ul>
+              <div class="link-row">
+                <a href="project_files/2508.09374v1.pdf">Paper</a>
+                <a href="images/ofdm_testbed.jpg">Testbed Photo</a>
+              </div>
+            </div>
+            <figure class="project-image">
+              <img src="images/ofdm_testbed.jpg" alt="OFDM testbed hardware setup" />
+            </figure>
+          </article>
+
+          <div class="project-grid">
+            <article class="project">
+              <p class="project-type">RTL / ASIC Design</p>
+              <h3>Dual-Core ML Accelerator for Attention</h3>
+              <p>
+                Performed RTL design and verification for a dual-core attention
+                accelerator, building SystemVerilog testbenches, debugging
+                hierarchical logic, and driving an RTL-to-GDSII-oriented flow
+                with SRAM integration and timing targets at 1 GHz.
+              </p>
+              <ul class="tag-list">
+                <li>Verilog</li>
+                <li>SystemVerilog</li>
+                <li>Innovus</li>
+                <li>ModelSim</li>
+              </ul>
+              <div class="link-row">
+                <a href="project_files/Dual%20Core%20ML%20Accelerator.md">Design Notes</a>
+              </div>
+            </article>
+
+            <article class="project">
+              <p class="project-type">Circuit Design</p>
+              <h3>Kogge-Stone Adder</h3>
+              <p>
+                Executed transistor-level design for an 8-bit Kogge-Stone adder
+                in Cadence Virtuoso, comparing static CMOS and dynamic logic
+                styles, analyzing critical paths, and pushing the
+                complementary-logic implementation to 3.1 GHz.
+              </p>
+              <ul class="tag-list">
+                <li>Cadence Virtuoso</li>
+                <li>CMOS Logic</li>
+                <li>Timing Analysis</li>
+              </ul>
+              <div class="link-row">
+                <a href="project_files/Project_report_ece165.pdf">Project Report</a>
+              </div>
+            </article>
+
+            <article class="project visual-project">
+              <img
+                src="images/phased_arrays_technical.jpg"
+                alt="Luke Wilson working with phased array hardware"
+              />
+              <div>
+                <p class="project-type">RF Systems Direction</p>
+                <h3>Hands-on with advanced wireless hardware</h3>
+                <p>
+                  My work is grounded in real instruments, SDR platforms, lab
+                  debugging, and the practical constraints of building systems
+                  that have to work outside simulation.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="timeline-section" id="experience">
+          <div class="section-heading">
+            <p class="eyebrow">Experience</p>
+            <h2>Research, teaching, and technical execution</h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <span>2024 to Present</span>
+                <p>WCSNG @ UC San Diego</p>
+              </div>
+              <div class="timeline-copy">
+                <h3>Research Volunteer</h3>
+                <p>
+                  Develop wireless communication simulations and hardware test
+                  pipelines, validate OFDM transceiver behavior, and collaborate
+                  on experiments spanning DSP algorithms, RF measurements, and
+                  system-level performance evaluation.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <span>Fall 2025</span>
+                <p>UC San Diego ECE</p>
+              </div>
+              <div class="timeline-copy">
+                <h3>Teaching Assistant, Electromagnetism</h3>
+                <p>
+                  Taught transmission lines, wave propagation, and core
+                  electromagnetics concepts through office hours, grading, and
+                  technical instruction for undergraduate students.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <span>2025 to 2026</span>
+                <p>UC San Diego</p>
+              </div>
+              <div class="timeline-copy">
+                <h3>Graduate EE Training</h3>
+                <p>
+                  Coursework and project work in VLSI architectures, integrated
+                  circuits and systems design, information theory,
+                  communications, advanced computer architecture, and digital
+                  signal processing.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="skills-section" id="skills">
+          <div class="section-heading">
+            <p class="eyebrow">Technical Profile</p>
+            <h2>Tools, domains, and hardware platforms</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3>Languages</h3>
+              <p>Python, MATLAB, SystemVerilog, Verilog, C/C++, Bash, ARM Assembly</p>
+            </article>
+            <article class="skill-card">
+              <h3>EDA and Verification</h3>
+              <p>Cadence Virtuoso, Innovus, Synopsys Design Compiler, ModelSim, Questa, gate-level debug, timing analysis</p>
+            </article>
+            <article class="skill-card">
+              <h3>Communications and DSP</h3>
+              <p>OFDM, MIMO, channel estimation, equalization, digital signal processing, wireless system evaluation</p>
+            </article>
+            <article class="skill-card">
+              <h3>Platforms and Lab Tools</h3>
+              <p>Ettus USRP B210 and X410, PlutoSDR, FPGA prototyping, oscilloscopes, signal generators, spectrum analyzers</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="credentials">
+          <div class="credentials-copy">
+            <p class="eyebrow">Recognition</p>
+            <h2>Academic strength with practical hardware depth</h2>
+            <p>
+              Booker Award recipient, high school valedictorian, 99th percentile
+              SAT, and co-author on the near-field MIMO ground station paper.
+            </p>
+            <div class="link-row">
+              <a href="https://www.ece.ucsd.edu/undergraduate/booker-award">Booker Award</a>
+              <a href="project_files/2508.09374v1.pdf">Near-Field MIMO Paper</a>
+            </div>
+          </div>
+          <figure class="credentials-image">
+            <img src="images/booker_award.jpg" alt="Luke Wilson receiving the Booker Award" />
+          </figure>
+        </section>
+
+        <section class="contact-section" id="contact">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build the next generation of communications hardware</h2>
+          </div>
+          <div class="contact-card">
+            <p>
+              I am looking for opportunities across communications systems, RF,
+              digital design, RTL logic, and digital verification.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:lukepeterwilson26@gmail.com">lukepeterwilson26@gmail.com</a>
+              <a href="https://github.com/lukepwilson">GitHub</a>
+              <a href="https://www.linkedin.com/in/luke-wilson-33718b238/">LinkedIn</a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

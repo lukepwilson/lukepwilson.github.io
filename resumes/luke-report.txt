@@ -1,0 +1,462 @@
+I can’t produce a report on **“everything you have ever done”**—because I only know things you’ve explicitly told me or that appear in files you shared. I don’t have access to your life outside this chat.
+
+But I **can** compile the most exhaustive profile possible from:
+
+* your conversations with me
+* the resumes you uploaded
+* the projects and habits you’ve discussed
+
+Below is a **structured dossier of everything I currently know about you.**
+
+---
+
+# Comprehensive Profile: Luke Peter Wilson
+
+## Basic Identity
+
+* **Name:** Luke Peter Wilson
+* **Location:** San Diego, California
+* **Email:** [lukepeterwilson26@gmail.com](mailto:lukepeterwilson26@gmail.com)
+* **Phone:** (760) 855-2996
+* **LinkedIn:** linkedin.com/in/luke-wilson
+
+You are currently a **graduate student in Electrical Engineering at UC San Diego** with interests primarily in **digital hardware design and wireless communications systems**. 
+
+---
+
+# Education
+
+## Master of Science – Electrical Engineering
+
+**University of California, San Diego**
+2025 – 2027
+
+Relevant coursework includes:
+
+* Random Processes and Stochastic Modeling
+* VLSI Digital System Algorithms and Architectures
+* VLSI Integrated Circuits and System Design
+* Information Theory and Communications
+* Advanced Computer Architecture
+* Digital Signal Processing
+* Microwave/RF systems
+
+
+
+---
+
+## Bachelor of Science – Electrical Engineering
+
+**University of California, San Diego**
+2021 – 2025
+GPA: **3.704**
+
+Major coursework:
+
+* Communication Systems
+* Digital Signal & Image Processing
+* Electromagnetism
+* Probability Theory and Random Processes
+* Linear Control Theory
+* Deep Learning
+* VLSI Digital Circuits and Systems
+* Linear Algebra
+* Differential Equations
+
+
+
+---
+
+# Professional / Research Experience
+
+## Research Volunteer
+
+**WCSNG (Wireless Communications & Sensing Networking Group), UCSD**
+2024 – Present
+
+Activities:
+
+* Designing wireless communication simulations
+* Building hardware testbeds
+* Working with PhD students
+* Analyzing experimental data
+* Participating in weekly research discussions
+
+
+
+---
+
+## Teaching Assistant
+
+**UCSD Electrical Engineering Department**
+Fall 2025
+
+Responsibilities:
+
+* Teaching electromagnetism topics
+* Running office hours
+* Grading assignments and exams
+* Assisting students with Maxwell’s equations, optics, and transmission lines
+
+
+
+---
+
+# Major Engineering Projects
+
+## Dual-Core Machine Learning Accelerator ASIC
+
+Tools: Verilog, Innovus
+
+Key aspects:
+
+* Dual-core systolic array architecture
+* Accelerates Q·Kᵀ matrix multiplication in attention mechanisms
+* Custom SRAM integration
+* RTL-to-GDSII flow implementation
+* Gate-level verification
+* Target clock ~1 GHz
+
+
+
+---
+
+## Near-Field MIMO Ground Station Architecture
+
+Technologies:
+
+* MATLAB
+* GNU Radio
+* OFDM
+* MIMO
+* USRP radios
+
+Work done:
+
+* Built a **2×2 mmWave MIMO hardware testbed**
+* Extracted channel state information
+* Automated experiments using Python and Linux
+* Contributed to an **IEEE INFOCOM 2026 paper**
+
+
+
+---
+
+## mmWave Sub-Array Beamforming System
+
+Hardware:
+
+* PlutoSDR
+* Ettus B210
+* ADF5355 synthesizer
+
+Goals:
+
+* Implement phased-array beamforming
+* Suppress jammer signals
+* Demonstrate system-level RF architecture
+
+
+
+---
+
+## Kogge-Stone Adder
+
+Tools:
+
+* Cadence Virtuoso
+* CMOS / Dynamic Logic
+
+Highlights:
+
+* Designed an **8-bit adder**
+* Achieved **>3 GHz performance**
+* Explored dynamic vs static CMOS logic
+* Learned about delay balancing and buffering
+
+
+
+---
+
+# Technical Skillset
+
+## Programming
+
+You have experience with:
+
+* MATLAB
+* Python
+* C/C++
+* Verilog
+* ARM Assembly
+* Bash
+
+
+
+---
+
+## EDA Tools
+
+* Cadence Virtuoso
+* Cadence Innovus
+* Synopsys Design Compiler
+* ModelSim / Questa
+* Xilinx Vivado
+* Intel Quartus
+
+
+
+---
+
+## Hardware Platforms
+
+You’ve used:
+
+* Ettus USRP B210 / X410
+* PlutoSDR
+* Oscilloscopes
+* Spectrum analyzers
+* Function generators
+* Arduino
+
+
+
+---
+
+## Communications / DSP Knowledge
+
+* OFDM
+* MIMO
+* Wi-Fi (802.11)
+* Channel estimation
+* Channel modeling
+* Beamforming
+* mmWave communications
+* Internet architecture
+
+
+
+---
+
+# Operating Systems
+
+You regularly use:
+
+* Linux
+* macOS
+* Windows
+
+
+
+---
+
+# Awards and Achievements
+
+* **High School Valedictorian**
+* **99th Percentile SAT**
+* **UCSD Booker Award recipient**
+* **German language proficiency**
+
+
+
+---
+
+# Additional Things You’ve Told Me in Conversations
+
+These are **not from your resume**, but from your chats.
+
+## Academic / Technical Activities
+
+You have:
+
+* Built and debugged **OFDM/MIMO communication pipelines**
+* Worked on **systolic arrays and ML hardware accelerators**
+* Implemented **Verilog FSMs and digital logic**
+* Used **Git workflows for hardware projects**
+* Used **MATLAB extensively for DSP**
+* Worked with **phased array beamforming**
+* Studied **information theory and stochastic processes**
+* Explored **UVM verification frameworks**
+
+---
+
+## Career Goals
+
+You frequently discuss pursuing careers in:
+
+* ASIC design
+* digital hardware architecture
+* wireless communications systems
+* RF / microwave engineering
+
+You have interviewed or prepared for roles at:
+
+* Amazon (ASIC engineering internship)
+* General Atomics
+* Viasat
+* Raytheon
+* BAE Systems
+* Apple
+* AMD
+* Qualcomm
+
+---
+
+## Technical Interests
+
+You consistently show interest in:
+
+* digital VLSI design
+* high-speed adders
+* systolic arrays
+* MIMO and OFDM systems
+* mmWave communications
+* phased arrays
+* satellite communication systems
+* LEO constellations
+
+---
+
+## Research Output
+
+You have been involved in work leading to:
+
+* an **IEEE INFOCOM publication submission**
+* hardware MIMO testbed experiments
+* RF phased-array experiments
+
+---
+
+# Personal Information You’ve Shared
+
+These are lifestyle details you mentioned.
+
+### Fitness
+
+* Male
+* 21 years old
+* 6'1"
+* ~200 lbs
+* Lift weights regularly
+* Goal: bench **315 lbs**
+* Currently around **265 lb bench**
+
+---
+
+### Lifestyle Habits
+
+You enjoy:
+
+* morning walks in the fog
+* coffee
+* cooking
+* driving
+* weightlifting
+
+You also track:
+
+* calories
+* protein intake
+* macro-based diets
+
+---
+
+### Food Preferences
+
+You like:
+
+* American-style food
+* stir-fry meals
+* high-protein diets
+
+You often cook:
+
+* tri-tip
+* eggs
+* rice bowls
+* stir fry
+
+---
+
+### Hobbies / Interests
+
+You’ve discussed:
+
+* philosophy (Nietzsche, Kant)
+* music
+* gym training
+* cooking
+* programming projects
+* digital hardware
+
+---
+
+# Personality Traits (Inferred)
+
+Based on conversation patterns you appear to be:
+
+* extremely **goal-oriented**
+* **highly analytical**
+* **hands-on builder**
+* focused on **career optimization**
+* interested in **deep technical understanding**
+* persistent with debugging problems
+
+---
+
+# Ongoing Projects Mentioned
+
+You’ve been working on:
+
+* CNN experiments using **MNIST**
+* MATLAB visualization tools for phased arrays
+* OFDM MIMO receivers
+* ML hardware accelerators
+
+---
+
+# Tools and Development Practices
+
+You commonly use:
+
+* Git branching and merging
+* SSH remote servers
+* Linux command line
+* MATLAB and Python scripting
+* LaTeX for reports
+
+---
+
+# Summary
+
+Your profile can roughly be described as:
+
+**Electrical engineer specializing in:**
+
+* digital hardware / ASIC design
+* wireless communications and DSP
+* mmWave and phased-array systems
+
+You combine:
+
+* **theoretical work (information theory, stochastic processes)**
+* **hardware design (Verilog, VLSI)**
+* **practical RF experimentation (SDR testbeds)**
+
+Your long-term trajectory appears to be toward **high-end hardware engineering roles** in areas like:
+
+* ASIC architecture
+* wireless systems
+* RF/digital hybrid systems
+* AI hardware accelerators
+
+---
+
+If you want, I can also produce something much more interesting:
+
+**“The Strategic Career Profile of Luke Wilson”**
+
+Basically a **psychological + technical analysis of your trajectory and potential career ceiling** based on everything you've told me.
+
+That one gets pretty interesting.
+

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Luke Peter Wilson - Marvell Resume</title>
+<style>
+  @page { size: Letter; margin: 0; }
+  body {
+    margin: 0;
+    background: #fff;
+    color: #000;
+    font-family: "Latin Modern Roman", "CMU Serif", "Times New Roman", serif;
+  }
+  .page {
+    width: 8.5in;
+    height: 11in;
+    box-sizing: border-box;
+    padding: 0.48in 0.58in 0.42in 0.58in;
+    margin: 0 auto;
+  }
+  .name {
+    text-align: center;
+    font-size: 20.5pt;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.05;
+  }
+  .contact {
+    text-align: center;
+    font-size: 9.6pt;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    line-height: 1.15;
+  }
+  .section {
+    margin-top: 11px;
+  }
+  .section-title {
+    font-size: 10.8pt;
+    font-variant: small-caps;
+    letter-spacing: 0.03em;
+    margin: 0 0 6px 0;
+    font-weight: 600;
+  }
+  .entry {
+    margin-bottom: 8px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    line-height: 1.15;
+  }
+  .school, .project, .role {
+    font-size: 10pt;
+    font-weight: 700;
+  }
+  .location, .date {
+    font-size: 10pt;
+  }
+  .degree, .project-meta, .org {
+    font-size: 9.45pt;
+    font-style: italic;
+    margin-top: 2px;
+  }
+  .coursework, .skill-line {
+    font-size: 9.25pt;
+    margin-top: 3px;
+    margin-left: 18px;
+    text-indent: -12px;
+    line-height: 1.16;
+  }
+  .coursework .label, .skill-line .label {
+    font-weight: 700;
+    font-style: normal;
+  }
+  .bullets {
+    margin: 4px 0 0 18px;
+    padding: 0;
+    list-style: none;
+  }
+  .bullets li {
+    position: relative;
+    font-size: 9.25pt;
+    line-height: 1.16;
+    margin: 0 0 3px 0;
+    padding-left: 18px;
+  }
+  .bullets li::before {
+    content: "–";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: 700;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1 class="name">Luke Peter Wilson</h1>
+  <div class="contact">San Diego, CA &nbsp;|&nbsp; lukepeterwilson26@gmail.com &nbsp;|&nbsp; (760) 855-2996 &nbsp;|&nbsp; linkedin.com/in/luke-wilson</div>
+
+  <div class="section">
+    <div class="section-title">Education</div>
+
+    <div class="entry">
+      <div class="row">
+        <div class="school">University of California, San Diego</div>
+        <div class="location">San Diego, CA</div>
+      </div>
+      <div class="row">
+        <div class="degree">Master of Science in Electrical Engineering</div>
+        <div class="date">Sept. 2025 – Dec. 2026</div>
+      </div>
+      <div class="coursework"><span class="label">– Coursework:</span> VLSI Digital System Algorithms and Architectures; VLSI Integrated Circuits and Systems Design; Advanced Computer Architecture; Digital Signal Processing; Information Theory and Communications; Random Processes and Stochastic Modeling; and Microwave/RF Systems.</div>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <div class="school">University of California, San Diego</div>
+        <div class="location">San Diego, CA</div>
+      </div>
+      <div class="row">
+        <div class="degree">Bachelor of Science in Electrical Engineering, GPA: 3.704</div>
+        <div class="date">Sept. 2021 – June 2025</div>
+      </div>
+      <div class="coursework"><span class="label">– Coursework:</span> Digital Signal and Image Processing, Communication Systems, Probability Theory and Random Processes, Electromagnetism, VLSI Digital Circuits and Systems, OOP, Linear Electronic Circuits and Systems, and Linear Control Theory.</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Technical Skills</div>
+    <div class="skill-line"><span class="label">Programming:</span> Python, C/C++, Verilog, SystemVerilog, MATLAB, Bash, ARM Assembly</div>
+    <div class="skill-line"><span class="label">EDA &amp; Simulation:</span> ModelSim/Questa, Intel Quartus Prime, Xilinx Vivado, Synopsys Design Compiler, Cadence Virtuoso, Cadence Innovus</div>
+    <div class="skill-line"><span class="label">Digital Design &amp; Verification:</span> RTL design, testbenches, functional verification, gate-level simulation, synthesis, static timing analysis, CDC basics, UVM basics</div>
+    <div class="skill-line"><span class="label">DSP, Tools &amp; Hardware:</span> GNU Radio, Git/GitHub, Linux, OFDM, MIMO, channel estimation, beamforming, mmWave systems, USRP B210/X410, PlutoSDR</div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+    <div class="entry">
+      <div class="row">
+        <div class="project">Dual-Core Machine Learning Accelerator for Attention Mechanisms <span class="project-meta">| Verilog, Innovus</span></div>
+        <div class="date">2026 – Present</div>
+      </div>
+      <ul class="bullets">
+        <li>Designing a dual-core systolic array accelerator for attention workloads with emphasis on clean RTL hierarchy, verification, and timing-driven implementation.</li>
+        <li>Implementing RTL-to-GDSII flow including synthesis, place-and-route, SRAM integration, and gate-level validation for a 1 GHz target.</li>
+        <li>Debugging functional and timing issues across block interfaces, strengthening experience with hardware integration and pre-silicon validation.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <div class="project">Near-Field MIMO Ground Station Testbed <span class="project-meta">| MATLAB, Python, GNU Radio, USRP</span></div>
+        <div class="date">2025</div>
+      </div>
+      <ul class="bullets">
+        <li>Built a 2x2 mmWave MIMO hardware testbed to extract channel state information and automate experiments with Python and Linux.</li>
+        <li>Processed experimental results to analyze channel behavior and support a co-authored IEEE INFOCOM 2026 paper.</li>
+        <li>Strengthened debugging skills across hardware/software interfaces by iterating between simulation, scripting, and lab measurements.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <div class="project">Kogge-Stone Adder <span class="project-meta">| Cadence Virtuoso, CMOS Logic, Dynamic Logic</span></div>
+        <div class="date">2025</div>
+      </div>
+      <ul class="bullets">
+        <li>Collaborated on an 8-bit adder design capable of operating above 1.8 GHz in Virtuoso.</li>
+        <li>Experimented with multiple logic styles, achieving 3.1 GHz performance with an optimized implementation.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <div class="entry">
+      <div class="row">
+        <div class="role">Research Volunteer, WCSNG @ UCSD</div>
+        <div class="date">June 2024 – Present</div>
+      </div>
+      <div class="row">
+        <div class="org">University of California, San Diego</div>
+        <div class="location">La Jolla, CA</div>
+      </div>
+      <ul class="bullets">
+        <li>Designed simulations related to wireless communications and translated them into hardware testbeds for experimental validation.</li>
+        <li>Collaborated with PhD students to perform experiments, analyze results, and troubleshoot implementation issues.</li>
+        <li>Participated in weekly meetings to discuss findings and critique current research papers.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <div class="role">Teaching Assistant, ECE Department</div>
+        <div class="date">Sept. 2025 – Dec. 2025</div>
+      </div>
+      <div class="row">
+        <div class="org">University of California, San Diego</div>
+        <div class="location">La Jolla, CA</div>
+      </div>
+      <ul class="bullets">
+        <li>Assisted in teaching Electromagnetism, including hosting office hours and tutoring sessions.</li>
+        <li>Evaluated student performance through grading homework, exams, and projects.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Extra Information</div>
+    <div class="skill-line"><span class="label">Highlights:</span> Booker Award recipient, 99th percentile SAT, valedictorian of high school, proficient in German.</div>
+  </div>
+</div>
+</body>
+</html>

@@ -516,6 +516,16 @@
     </div>
 
     <script>
+      // Open all non-anchor links in a new tab
+      document.querySelectorAll('a[href]').forEach((a) => {
+        if (!a.getAttribute('href').startsWith('#')) {
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener noreferrer');
+        }
+      });
+    </script>
+
+    <script>
       // Respect prefers-reduced-motion
       const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       if (prefersReduced) {

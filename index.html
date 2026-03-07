@@ -42,16 +42,16 @@
             </div>
             <ul class="hero-metrics" aria-label="Highlights">
               <li>
-                <strong>1 GHz</strong>
-                <span>Targeted ML accelerator implementation flow</span>
+                <strong>Viterbi</strong>
+                <span>Multi-module decoder with survivor memory and traceback logic</span>
               </li>
               <li>
-                <strong>2×2 MIMO</strong>
-                <span>Near-field wireless testbed with OFDM pipelines</span>
+                <strong>UART</strong>
+                <span>End-to-end serial interface with loopback verification</span>
               </li>
               <li>
-                <strong>3.1 GHz</strong>
-                <span>Kogge-Stone adder in complementary transistor logic</span>
+                <strong>LFSR</strong>
+                <span>Programmable message encryptor with memory-backed control</span>
               </li>
             </ul>
           </div>
@@ -94,84 +94,91 @@
 
           <article class="project project-featured">
             <div class="project-copy">
-              <p class="project-type">Wireless Systems Research</p>
-              <h3>Near-Field MIMO Ground Station Testbed</h3>
+              <p class="project-type">Digital Design / Communications</p>
+              <h3>Viterbi Decoder</h3>
               <p>
-                Built an end-to-end OFDM testbed for a near-field MIMO research
-                effort, integrating SDR hardware, Python and MATLAB pipelines,
-                and measurement-driven debugging for CSI extraction and link
-                characterization.
+                Implemented a SystemVerilog convolutional encoder and Viterbi
+                decoder chain with branch metric computation, add-compare-select
+                processing, rotating survivor memory banks, and traceback-based
+                decoded output reconstruction.
               </p>
               <ul class="tag-list">
-                <li>OFDM</li>
-                <li>MIMO</li>
-                <li>Python</li>
-                <li>MATLAB</li>
-                <li>USRP</li>
+                <li>SystemVerilog</li>
+                <li>RTL Design</li>
+                <li>Verification</li>
+                <li>Error-Control Coding</li>
+                <li>Waveform Debug</li>
               </ul>
               <div class="link-row">
-                <a href="project_files/2508.09374v1.pdf">Paper</a>
-                <a href="images/ofdm_testbed.jpg">Testbed Photo</a>
+                <a href="https://github.com/lukepwilson/Viterbi-Decoder">GitHub Repo</a>
+                <a href="https://github.com/lukepwilson/Viterbi-Decoder/blob/main/docs/project_report.docx">Report</a>
               </div>
             </div>
             <figure class="project-image">
-              <img src="images/ofdm_testbed.jpg" alt="OFDM testbed hardware setup" />
+              <img src="images/viterbi_decoder_waveform.png" alt="Waveform view of the Viterbi decoder system testbench" />
             </figure>
           </article>
 
           <div class="project-grid">
             <article class="project">
-              <p class="project-type">RTL / ASIC Design</p>
-              <h3>Dual-Core ML Accelerator for Attention</h3>
+              <p class="project-type">Digital Interface Design</p>
+              <h3>UART Serial Interface</h3>
               <p>
-                Performed RTL design and verification for a dual-core attention
-                accelerator, building SystemVerilog testbenches, debugging
-                hierarchical logic, and driving an RTL-to-GDSII-oriented flow
-                with SRAM integration and timing targets at 1 GHz.
+                Built a UART transmitter, receiver, and loopback top level in
+                SystemVerilog, using FSM-based control and self-checking
+                testbenches to verify byte-accurate serial communication.
               </p>
               <ul class="tag-list">
-                <li>Verilog</li>
                 <li>SystemVerilog</li>
-                <li>Innovus</li>
-                <li>ModelSim</li>
+                <li>FSM Design</li>
+                <li>Protocol Design</li>
+                <li>Testbenches</li>
               </ul>
               <div class="link-row">
-                <a href="project_files/Dual%20Core%20ML%20Accelerator.md">Design Notes</a>
+                <a href="https://github.com/lukepwilson/UART-project">GitHub Repo</a>
+                <a href="images/uart_serial_interface_waveform.png">Waveform</a>
               </div>
             </article>
 
             <article class="project">
-              <p class="project-type">Circuit Design</p>
-              <h3>Kogge-Stone Adder</h3>
+              <p class="project-type">Control / Datapath Design</p>
+              <h3>LFSR Message Encryptor</h3>
               <p>
-                Executed transistor-level design for an 8-bit Kogge-Stone adder
-                in Cadence Virtuoso, comparing static CMOS and dynamic logic
-                styles, analyzing critical paths, and pushing the
-                complementary-logic implementation to 3.1 GHz.
+                Designed a memory-backed encryptor driven by a programmable
+                6-bit LFSR, including configuration loading, preamble
+                generation, encrypted payload writes, and self-checking
+                verification.
               </p>
               <ul class="tag-list">
-                <li>Cadence Virtuoso</li>
-                <li>CMOS Logic</li>
-                <li>Timing Analysis</li>
+                <li>SystemVerilog</li>
+                <li>LFSR</li>
+                <li>Controller Design</li>
+                <li>Memory Interface</li>
               </ul>
               <div class="link-row">
-                <a href="project_files/Project_report_ece165.pdf">Project Report</a>
+                <a href="https://github.com/lukepwilson/lsfr-message-encryptor">GitHub Repo</a>
+                <a href="images/lfsr_message_encryptor_waveform.png">Waveform</a>
               </div>
             </article>
 
             <article class="project visual-project">
               <img
-                src="images/phased_arrays_technical.jpg"
-                alt="Luke Wilson working with phased array hardware"
+                src="images/ofdm_testbed.jpg"
+                alt="OFDM testbed hardware setup"
               />
               <div>
-                <p class="project-type">RF Systems Direction</p>
-                <h3>Hands-on with advanced wireless hardware</h3>
+                <p class="project-type">Wireless Systems Research</p>
+                <h3>Near-Field MIMO Ground Station Testbed</h3>
                 <p>
-                  My work is grounded in real instruments, SDR platforms, lab
-                  debugging, and the practical constraints of building systems
-                  that have to work outside simulation.
+                  Built an end-to-end OFDM testbed for near-field MIMO research,
+                  integrating SDR hardware, Python and MATLAB pipelines, and
+                  measurement-driven debugging for CSI extraction and link
+                  characterization.
                 </p>
+                <div class="link-row">
+                  <a href="project_files/2508.09374v1.pdf">Paper</a>
+                  <a href="images/ofdm_testbed.jpg">Photo</a>
+                </div>
               </div>
             </article>
           </div>

@@ -2,205 +2,258 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luke Wilson | Communications, RF, RTL, Verification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Luke Wilson — Wireless Systems &amp; Hardware Engineering</title>
     <meta
       name="description"
-      content="Portfolio for Luke Wilson, an electrical engineer focused on communications systems, RF platforms, RTL design, and digital verification."
+      content="Luke Wilson — MS EE at UC San Diego. Near-field MIMO research, mmWave hardware testbeds, RTL design, and IEEE INFOCOM co-author."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="page-shell">
+
+      <!-- NAV -->
       <header class="site-header">
-        <a class="brand" href="#top">Luke Wilson</a>
+        <a class="brand" href="#top">LW</a>
         <nav class="site-nav" aria-label="Primary">
           <a href="#projects">Projects</a>
-          <a href="#other-projects">More Work</a>
           <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
           <a href="#life">Outside</a>
           <a href="#contact">Contact</a>
         </nav>
+        <a class="nav-cta" href="resumes/Luke-Peter-Wilson.pdf" target="_blank">Resume ↗</a>
       </header>
 
       <main id="top">
+
+        <!-- HERO -->
         <section class="hero">
-          <div class="hero-copy">
-            <p class="eyebrow">Communications • RF Systems • RTL • Verification</p>
-            <h1>
-              Sleek hardware systems for machine learning, advanced wireless links,
-              and real-world digital implementation.
-            </h1>
+          <div class="hero-copy reveal reveal-left">
+            <p class="eyebrow">MS EE &nbsp;·&nbsp; UC San Diego &nbsp;·&nbsp; IEEE Co-Author</p>
+            <h1>Next-Gen Communications Systems &amp; Hardware Design</h1>
             <p class="hero-text">
-              I am Luke Wilson, an electrical engineer from San Diego pursuing
-              graduate study at UC San Diego. My work spans end-to-end OFDM
-              testbeds, near-field MIMO research, ML accelerator architecture,
-              synthesizable RTL, and verification-driven hardware development.
+              I'm Luke Wilson — building mmWave MIMO testbeds, end-to-end OFDM platforms,
+              and synthesizable RTL from RF front-end to algorithm. Currently pursuing an
+              MS in Electrical Engineering at UCSD while conducting research at WCSNG.
             </p>
             <div class="hero-actions">
               <a class="button button-primary" href="#projects">View Projects</a>
-              <a class="button button-secondary" href="resumes/Luke-Peter-Wilson.pdf">Resume</a>
+              <a class="button button-outline" href="resumes/Luke-Peter-Wilson.pdf" target="_blank">Resume</a>
             </div>
             <ul class="hero-metrics" aria-label="Highlights">
               <li>
-                <strong>ML</strong>
-                <span>Dual-core attention accelerator with MAC arrays, SRAM hierarchy, and CDC</span>
+                <strong>IEEE</strong>
+                <span>Co-authored manuscript submitted to INFOCOM 2026, under peer review</span>
               </li>
               <li>
-                <strong>MIMO</strong>
-                <span>Measurement-driven near-field OFDM ground station and wireless evaluation</span>
+                <strong>2×2 MIMO</strong>
+                <span>mmWave portable hardware testbed with automated CSI extraction</span>
               </li>
               <li>
-                <strong>RTL</strong>
-                <span>Portfolio projects spanning decoding, serial links, control, and verification</span>
+                <strong>3.704</strong>
+                <span>BS GPA — Booker Award recipient and high school valedictorian</span>
               </li>
             </ul>
           </div>
 
           <div class="hero-visual">
-            <figure class="portrait-card">
-              <img src="images/nice_headshot.jpg" alt="Portrait of Luke Wilson" />
+            <figure class="portrait-card reveal reveal-right">
+              <img src="images/nice_headshot.jpg" alt="Luke Wilson" />
             </figure>
-            <div class="hero-signal-card">
-              <p class="signal-label">Current focus</p>
+            <div class="hero-status-card reveal reveal-right" style="transition-delay:120ms">
+              <p class="status-label">// current focus</p>
               <ul>
-                <li>ML accelerator architecture</li>
-                <li>Wireless systems research</li>
-                <li>ASIC and RTL implementation</li>
+                <li><span class="dot dot-green"></span>Near-field MIMO research</li>
+                <li><span class="dot dot-cyan"></span>mmWave systems &amp; beamforming</li>
+                <li><span class="dot dot-amber"></span>VLSI &amp; RTL implementation</li>
               </ul>
             </div>
           </div>
         </section>
 
+        <!-- FOCUS STRIP -->
         <section class="focus-strip" aria-label="Focus areas">
-          <article>
-            <h2>Communications</h2>
-            <p>OFDM, MIMO, channel estimation, equalization, and measurement-driven test workflows.</p>
+          <article class="reveal">
+            <p class="focus-icon">&gt;_</p>
+            <h3>Wireless Systems</h3>
+            <p>OFDM, MIMO, mmWave, phased arrays, channel estimation, SDR hardware testbeds, and IEEE-level research.</p>
           </article>
-          <article>
-            <h2>Digital Design</h2>
-            <p>RTL architecture, synthesis, timing-aware implementation, and ASIC-oriented design tradeoffs.</p>
+          <article class="reveal" style="transition-delay:80ms">
+            <p class="focus-icon">&gt;_</p>
+            <h3>Digital Hardware</h3>
+            <p>RTL design, VLSI, synthesizable SystemVerilog, Cadence Virtuoso, and timing-aware ASIC implementation.</p>
           </article>
-          <article>
-            <h2>Verification</h2>
-            <p>SystemVerilog testbenches, waveform debugging, coverage-oriented validation, and hardware bring-up.</p>
+          <article class="reveal" style="transition-delay:160ms">
+            <p class="focus-icon">&gt;_</p>
+            <h3>Signal Processing</h3>
+            <p>DSP algorithms, channel modeling, beamforming, MATLAB and Python automation, and measurement pipelines.</p>
           </article>
         </section>
 
-        <section class="section-grid" id="projects">
-          <div class="section-heading">
-            <p class="eyebrow">Selected Work</p>
+        <!-- FEATURED PROJECTS -->
+        <section class="section-block" id="projects">
+          <div class="section-heading reveal">
+            <p class="eyebrow">// selected work</p>
             <h2>Flagship projects</h2>
           </div>
 
-          <article class="project project-featured">
+          <article class="project-featured reveal reveal-left">
+            <figure class="project-media">
+              <img src="images/ofdm_testbed.jpg" alt="Near-field MIMO OFDM hardware testbed" />
+            </figure>
             <div class="project-copy">
-              <p class="project-type">Machine Learning Hardware</p>
-              <h3>Dual-Core ML Accelerator for Attention</h3>
+              <p class="project-type">Wireless Systems Research</p>
+              <h3>Near-Field MIMO Ground Station</h3>
               <p>
-                Architected a synthesizable dual-core accelerator for transformer
-                attention, including 8-column MAC arrays, SRAM-backed dataflow,
-                asynchronous handshaking between cores, and fixed-point L1
-                normalization targeting high-frequency implementation.
+                Built a 2×2 mmWave portable hardware testbed to extract channel state
+                information and characterize near-field propagation. Fully automated
+                data collection using MATLAB, Python, GNU Radio, and Linux — expanding
+                the testing range significantly and obtaining critical CSI results.
+                Co-authored manuscript submitted to IEEE INFOCOM 2026, currently under
+                peer review.
+              </p>
+              <ul class="tag-list">
+                <li>OFDM</li>
+                <li>MIMO</li>
+                <li>mmWave</li>
+                <li>USRP B210/X410</li>
+                <li>MATLAB</li>
+                <li>Python</li>
+                <li>GNU Radio</li>
+                <li>IEEE Paper</li>
+              </ul>
+              <div class="link-row">
+                <a href="project_files/2508.09374v1.pdf">Read Paper</a>
+                <a href="images/ofdm_testbed.jpg">Testbed Photo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-featured project-flip reveal reveal-right">
+            <div class="project-copy">
+              <p class="project-type">RF &amp; Phased Arrays</p>
+              <h3>mmSub-Array — Jammer Rejection Testbed</h3>
+              <p>
+                Programmed phased array weights to overcome interference from a strong
+                jammer signal in a live RF hardware environment. Engineered a testbed
+                using PlutoSDR, USRP B210, and ADF5355 to demonstrate system efficacy
+                with real measurements. Led remote team collaboration and code
+                organization through GitHub.
+              </p>
+              <ul class="tag-list">
+                <li>Phased Arrays</li>
+                <li>mmWave</li>
+                <li>PlutoSDR</li>
+                <li>USRP B210</li>
+                <li>ADF5355</li>
+                <li>UHD</li>
+                <li>Python</li>
+                <li>MATLAB</li>
+              </ul>
+            </div>
+            <div class="project-media project-data-panel">
+              <div class="data-chip">
+                <span>Type</span>
+                <strong>Phased Array</strong>
+              </div>
+              <div class="data-chip">
+                <span>Hardware</span>
+                <strong>USRP + PlutoSDR</strong>
+              </div>
+              <div class="data-chip">
+                <span>Goal</span>
+                <strong>Jammer Rejection</strong>
+              </div>
+              <div class="data-chip">
+                <span>Stack</span>
+                <strong>UHD + GNU Radio</strong>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- MORE PROJECTS -->
+        <section class="section-block" id="other-projects">
+          <div class="section-heading reveal">
+            <p class="eyebrow">// additional work</p>
+            <h2>Hardware, RTL, and digital design</h2>
+          </div>
+          <div class="project-grid">
+
+            <article class="project-card reveal">
+              <p class="project-type">Machine Learning Hardware</p>
+              <h3>Dual-Core ML Accelerator</h3>
+              <p>
+                Synthesizable dual-core accelerator for transformer attention with
+                8-column MAC arrays, SRAM-backed dataflow, async CDC handshaking,
+                and fixed-point L1 normalization targeting 1 GHz.
               </p>
               <ul class="tag-list">
                 <li>SystemVerilog</li>
-                <li>ML Accelerator</li>
                 <li>MAC Array</li>
                 <li>CDC</li>
-                <li>Fixed-Point RTL</li>
+                <li>Fixed-Point</li>
                 <li>Architecture</li>
               </ul>
               <div class="link-row">
                 <a href="project_files/Dual%20Core%20ML%20Accelerator.md">Design Summary</a>
               </div>
-            </div>
-            <div class="project-image project-data-panel" aria-label="ML accelerator architecture highlights">
-              <div class="data-chip">
-                <span>Compute</span>
-                <strong>2 cores</strong>
-              </div>
-              <div class="data-chip">
-                <span>Array</span>
-                <strong>8x8 MAC flow</strong>
-              </div>
-              <div class="data-chip">
-                <span>Target</span>
-                <strong>1 GHz</strong>
-              </div>
-              <div class="data-chip">
-                <span>Control</span>
-                <strong>Async handshake</strong>
-              </div>
-            </div>
-          </article>
+            </article>
 
-          <article class="project project-featured project-featured-reverse">
-            <figure class="project-image">
-              <img
-                src="images/ofdm_testbed.jpg"
-                alt="OFDM testbed hardware setup for near-field MIMO research"
-              />
-            </figure>
-            <div class="project-copy">
-              <p class="project-type">Wireless Systems Research</p>
-              <h3>Near-Field MIMO Ground Station Testbed</h3>
+            <article class="project-card reveal" style="transition-delay:60ms">
+              <p class="project-type">VLSI / Circuit Design</p>
+              <h3>Kogge-Stone Adder</h3>
               <p>
-                Built an end-to-end OFDM ground station for near-field MIMO
-                experiments, integrating SDR hardware, Python and MATLAB signal
-                processing, CSI extraction, and measurement-driven debugging for
-                channel characterization and system validation.
+                8-bit adder design in Cadence Virtuoso capable of operating above
+                1.8 GHz. Achieved 3.1 GHz performance through multi-style
+                experimentation with Kogge-Stone Complementary Logic.
               </p>
               <ul class="tag-list">
-                <li>OFDM</li>
-                <li>MIMO</li>
-                <li>SDR</li>
-                <li>Python</li>
-                <li>MATLAB</li>
+                <li>Cadence Virtuoso</li>
+                <li>CMOS Logic</li>
+                <li>Dynamic Logic</li>
+                <li>VLSI</li>
               </ul>
               <div class="link-row">
-                <a href="project_files/2508.09374v1.pdf">Paper</a>
-                <a href="images/ofdm_testbed.jpg">Testbed Photo</a>
+                <a href="project_files/Project_report_ece165.pdf">Project Report</a>
               </div>
-            </div>
-          </article>
-        </section>
+            </article>
 
-        <section class="section-grid" id="other-projects">
-          <div class="section-heading">
-            <p class="eyebrow">Additional Projects</p>
-            <h2>Other work across RTL, protocols, and coding systems</h2>
-          </div>
-
-          <div class="project-grid">
-            <article class="project">
+            <article class="project-card reveal" style="transition-delay:120ms">
               <p class="project-type">Digital Design / Communications</p>
               <h3>Viterbi Decoder</h3>
               <p>
-                Implemented a SystemVerilog convolutional encoder and Viterbi
-                decoder chain with branch metric computation, add-compare-select
-                logic, rotating survivor memory banks, and traceback-based output
-                reconstruction.
+                SystemVerilog convolutional encoder and Viterbi decoder chain with
+                branch metric computation, add-compare-select logic, rotating
+                survivor memory banks, and traceback output reconstruction.
               </p>
               <ul class="tag-list">
                 <li>SystemVerilog</li>
-                <li>RTL Design</li>
-                <li>Verification</li>
+                <li>RTL</li>
                 <li>Error-Control Coding</li>
+                <li>Verification</li>
               </ul>
               <div class="link-row">
-                <a href="https://github.com/lukepwilson/Viterbi-Decoder">GitHub Repo</a>
+                <a href="https://github.com/lukepwilson/Viterbi-Decoder">GitHub</a>
                 <a href="images/viterbi_decoder_waveform.png">Waveform</a>
               </div>
             </article>
 
-            <article class="project">
+            <article class="project-card reveal">
               <p class="project-type">Digital Interface Design</p>
               <h3>UART Serial Interface</h3>
               <p>
-                Built a UART transmitter, receiver, and loopback top level in
-                SystemVerilog, using FSM-based control and self-checking
-                testbenches to verify byte-accurate serial communication.
+                UART transmitter, receiver, and loopback top level in SystemVerilog
+                using FSM-based control with self-checking testbenches for
+                byte-accurate serial communication verification.
               </p>
               <ul class="tag-list">
                 <li>SystemVerilog</li>
@@ -209,19 +262,18 @@
                 <li>Testbenches</li>
               </ul>
               <div class="link-row">
-                <a href="https://github.com/lukepwilson/UART-project">GitHub Repo</a>
+                <a href="https://github.com/lukepwilson/UART-project">GitHub</a>
                 <a href="images/uart_serial_interface_waveform.png">Waveform</a>
               </div>
             </article>
 
-            <article class="project">
+            <article class="project-card reveal" style="transition-delay:60ms">
               <p class="project-type">Control / Datapath Design</p>
               <h3>LFSR Message Encryptor</h3>
               <p>
-                Designed a memory-backed encryptor driven by a programmable
-                6-bit LFSR, including configuration loading, preamble
-                generation, encrypted payload writes, and self-checking
-                verification.
+                Memory-backed encryptor driven by a programmable 6-bit LFSR with
+                configuration loading, preamble generation, encrypted payload
+                writes, and self-checking verification.
               </p>
               <ul class="tag-list">
                 <li>SystemVerilog</li>
@@ -230,172 +282,255 @@
                 <li>Memory Interface</li>
               </ul>
               <div class="link-row">
-                <a href="https://github.com/lukepwilson/lsfr-message-encryptor">GitHub Repo</a>
+                <a href="https://github.com/lukepwilson/lsfr-message-encryptor">GitHub</a>
                 <a href="images/lfsr_message_encryptor_waveform.png">Waveform</a>
               </div>
             </article>
+
           </div>
         </section>
 
-        <section class="timeline-section" id="experience">
-          <div class="section-heading">
-            <p class="eyebrow">Experience</p>
-            <h2>Research, teaching, and technical execution</h2>
+        <!-- EXPERIENCE -->
+        <section class="section-block" id="experience">
+          <div class="section-heading reveal">
+            <p class="eyebrow">// experience</p>
+            <h2>Research, teaching, and graduate training</h2>
           </div>
-          <div class="timeline">
+          <div class="timeline-card reveal">
+
             <article class="timeline-item">
               <div class="timeline-meta">
-                <span>2024 to Present</span>
+                <span class="date-badge">2024 – Present</span>
                 <p>WCSNG @ UC San Diego</p>
               </div>
-              <div class="timeline-copy">
+              <div class="timeline-body">
                 <h3>Research Volunteer</h3>
                 <p>
-                  Develop wireless communication simulations and hardware test
-                  pipelines, validate OFDM transceiver behavior, and collaborate
-                  on experiments spanning DSP algorithms, RF measurements, and
-                  system-level performance evaluation.
+                  Designed wireless communication simulations and followed up with
+                  hardware testbeds. Collaborated with PhD students on experiments
+                  spanning DSP algorithms, RF measurements, and system-level
+                  evaluation. Co-authored manuscript submitted to IEEE INFOCOM 2026.
                 </p>
               </div>
             </article>
 
             <article class="timeline-item">
               <div class="timeline-meta">
-                <span>Fall 2025</span>
+                <span class="date-badge">Fall 2025</span>
                 <p>UC San Diego ECE</p>
               </div>
-              <div class="timeline-copy">
-                <h3>Teaching Assistant, Electromagnetism</h3>
+              <div class="timeline-body">
+                <h3>Teaching Assistant — Electromagnetism</h3>
                 <p>
-                  Taught transmission lines, wave propagation, and core
-                  electromagnetics concepts through office hours, grading, and
-                  technical instruction for undergraduate students.
+                  Hosted office hours and tutoring sessions covering transmission
+                  lines, Maxwell's equations, wave propagation, and optics. Evaluated
+                  student performance through grading homework, exams, and projects.
                 </p>
               </div>
             </article>
 
             <article class="timeline-item">
               <div class="timeline-meta">
-                <span>2025 to 2026</span>
+                <span class="date-badge">2025 – 2027</span>
                 <p>UC San Diego</p>
               </div>
-              <div class="timeline-copy">
-                <h3>Graduate EE Training</h3>
+              <div class="timeline-body">
+                <h3>MS — Electrical Engineering</h3>
                 <p>
-                  Coursework and project work in VLSI architectures, integrated
-                  circuits and systems design, information theory,
-                  communications, advanced computer architecture, and digital
-                  signal processing.
+                  Coursework in VLSI and system-level circuit design, communication
+                  networks and coding theory, random processes, information theory,
+                  machine learning for engineering systems, microwave/RF systems,
+                  and signal processing.
                 </p>
               </div>
             </article>
+
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <span class="date-badge">2021 – 2025</span>
+                <p>UC San Diego</p>
+              </div>
+              <div class="timeline-body">
+                <h3>BS — Electrical Engineering &nbsp;·&nbsp; GPA 3.704</h3>
+                <p>
+                  Coursework in digital signal processing, communication systems,
+                  VLSI digital circuits, probability and random processes,
+                  electromagnetism, deep learning, and linear control theory.
+                </p>
+              </div>
+            </article>
+
           </div>
         </section>
 
-        <section class="skills-section" id="skills">
-          <div class="section-heading">
-            <p class="eyebrow">Technical Profile</p>
-            <h2>Tools, domains, and hardware platforms</h2>
+        <!-- SKILLS -->
+        <section class="section-block" id="skills">
+          <div class="section-heading reveal">
+            <p class="eyebrow">// technical profile</p>
+            <h2>Languages, tools, and hardware platforms</h2>
           </div>
           <div class="skills-grid">
-            <article class="skill-card">
+
+            <article class="skill-card reveal">
               <h3>Languages</h3>
-              <p>Python, MATLAB, SystemVerilog, Verilog, C/C++, Bash, ARM Assembly</p>
+              <div class="skill-tags">
+                <span>MATLAB</span>
+                <span>Python</span>
+                <span>C/C++</span>
+                <span>Verilog</span>
+                <span>ARM Assembly</span>
+                <span>Bash</span>
+              </div>
             </article>
-            <article class="skill-card">
-              <h3>EDA and Verification</h3>
-              <p>Cadence Virtuoso, Innovus, Synopsys Design Compiler, ModelSim, Questa, gate-level debug, timing analysis</p>
+
+            <article class="skill-card reveal" style="transition-delay:80ms">
+              <h3>Wireless &amp; DSP</h3>
+              <div class="skill-tags">
+                <span>OFDM</span>
+                <span>MIMO</span>
+                <span>mmWave</span>
+                <span>Beamforming</span>
+                <span>Channel Estimation</span>
+                <span>WiFi 802.11</span>
+                <span>CDMA</span>
+                <span>Channel Modeling</span>
+              </div>
             </article>
-            <article class="skill-card">
-              <h3>Communications and DSP</h3>
-              <p>OFDM, MIMO, channel estimation, equalization, digital signal processing, wireless system evaluation</p>
+
+            <article class="skill-card reveal">
+              <h3>EDA &amp; Simulation</h3>
+              <div class="skill-tags">
+                <span>Cadence Virtuoso</span>
+                <span>Innovus</span>
+                <span>Synopsys DC</span>
+                <span>ModelSim / Questa</span>
+                <span>LTSpice / PSpice</span>
+                <span>Quartus</span>
+                <span>Xilinx Vivado</span>
+              </div>
             </article>
-            <article class="skill-card">
-              <h3>Platforms and Lab Tools</h3>
-              <p>Ettus USRP B210 and X410, PlutoSDR, FPGA prototyping, oscilloscopes, signal generators, spectrum analyzers</p>
+
+            <article class="skill-card reveal" style="transition-delay:80ms">
+              <h3>Hardware &amp; Tools</h3>
+              <div class="skill-tags">
+                <span>USRP B210/X410</span>
+                <span>PlutoSDR</span>
+                <span>GNU Radio</span>
+                <span>UHD</span>
+                <span>Spectrum Analyzers</span>
+                <span>Signal Generators</span>
+                <span>MATLAB Parallel Toolbox</span>
+              </div>
             </article>
+
           </div>
         </section>
 
-        <section class="credentials">
-          <div class="credentials-copy">
-            <p class="eyebrow">Recognition</p>
-            <h2>Academic strength with practical hardware depth</h2>
-            <p>
-              Booker Award recipient, high school valedictorian, 99th percentile
-              SAT, and co-author on the near-field MIMO ground station paper.
-            </p>
-            <div class="link-row">
-              <a href="https://www.ece.ucsd.edu/undergraduate/booker-award">Booker Award</a>
-              <a href="project_files/2508.09374v1.pdf">Near-Field MIMO Paper</a>
+        <!-- CREDENTIALS -->
+        <section class="section-block">
+          <div class="credentials-card reveal">
+            <div class="credentials-copy">
+              <p class="eyebrow">// recognition</p>
+              <h2>Academic strength and research impact</h2>
+              <p>
+                Booker Award recipient at UC San Diego, high school valedictorian,
+                99th percentile SAT, and co-author on a near-field MIMO ground station
+                paper currently under peer review at IEEE INFOCOM 2026.
+              </p>
+              <div class="link-row">
+                <a href="https://www.ece.ucsd.edu/undergraduate/booker-award">Booker Award</a>
+                <a href="project_files/2508.09374v1.pdf">Near-Field MIMO Paper</a>
+              </div>
             </div>
+            <figure class="credentials-image">
+              <img src="images/booker_award.jpg" alt="Luke Wilson receiving the Booker Award" />
+            </figure>
           </div>
-          <figure class="credentials-image">
-            <img src="images/booker_award.jpg" alt="Luke Wilson receiving the Booker Award" />
-          </figure>
         </section>
 
-        <section class="life-section" id="life">
-          <div class="section-heading">
-            <p class="eyebrow">Outside Engineering</p>
+        <!-- OUTSIDE -->
+        <section class="section-block" id="life">
+          <div class="section-heading reveal">
+            <p class="eyebrow">// outside engineering</p>
             <h2>What keeps me sharp away from the bench</h2>
           </div>
           <div class="life-grid">
-            <article class="life-card life-card-image">
+            <article class="life-card life-card-image reveal">
               <img src="images/photo_having_fun.jpg" alt="Luke Wilson outside the lab" />
             </article>
-            <article class="life-card">
+            <article class="life-card reveal">
               <h3>Lifting Weights</h3>
               <p>
-                Strength training keeps me disciplined and consistent. I like the
-                long-term mindset: incremental improvement, solid technique, and
-                showing up repeatedly.
+                Strength training keeps me disciplined and consistent —
+                incremental improvement, solid technique, and showing up repeatedly.
               </p>
             </article>
-            <article class="life-card">
+            <article class="life-card reveal" style="transition-delay:60ms">
               <h3>Surfing</h3>
               <p>
-                Surfing is where I reset. It has the same appeal as engineering:
-                reading conditions, reacting quickly, and staying calm when the
-                environment changes.
+                Surfing is where I reset. Reading conditions, reacting quickly,
+                and staying calm when the environment changes — same as engineering.
               </p>
             </article>
-            <article class="life-card">
+            <article class="life-card reveal">
               <h3>Camping</h3>
               <p>
-                I like getting away from screens, spending time outdoors, and
-                being in places where everything is simpler and more physical.
+                Getting away from screens, spending time outdoors, and being in
+                places where everything is simpler and more physical.
               </p>
             </article>
-            <article class="life-card">
+            <article class="life-card reveal" style="transition-delay:60ms">
               <h3>Cooking</h3>
               <p>
                 Cooking scratches the same itch as design work: technique,
-                iteration, and craft. I enjoy building something good from a set
-                of raw parts and constraints.
+                iteration, and craft. Building something good from raw parts.
               </p>
             </article>
           </div>
         </section>
 
-        <section class="contact-section" id="contact">
-          <div class="section-heading">
-            <p class="eyebrow">Contact</p>
-            <h2>Let’s build the next generation of communications hardware</h2>
-          </div>
-          <div class="contact-card">
-            <p>
-              I am looking for opportunities across communications systems, RF,
-              digital design, RTL logic, and digital verification.
-            </p>
+        <!-- CONTACT -->
+        <section class="section-block" id="contact">
+          <div class="contact-card reveal">
+            <div class="contact-copy">
+              <p class="eyebrow">// contact</p>
+              <h2>Let's build next-generation wireless hardware.</h2>
+              <p>
+                Looking for opportunities in wireless systems, RF, digital design,
+                RTL, and verification. Open to research roles, internships, and
+                full-time positions.
+              </p>
+            </div>
             <div class="contact-links">
               <a href="mailto:lukepeterwilson26@gmail.com">lukepeterwilson26@gmail.com</a>
-              <a href="https://github.com/lukepwilson">GitHub</a>
-              <a href="https://www.linkedin.com/in/luke-wilson-33718b238/">LinkedIn</a>
+              <a href="https://github.com/lukepwilson" target="_blank">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/luke-wilson-33718b238/" target="_blank">LinkedIn ↗</a>
             </div>
           </div>
         </section>
+
       </main>
     </div>
+
+    <script>
+      // Respect prefers-reduced-motion
+      const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (prefersReduced) {
+        document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
+      } else {
+        const obs = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((e) => {
+              if (e.isIntersecting) {
+                e.target.classList.add('visible');
+                obs.unobserve(e.target);
+              }
+            });
+          },
+          { threshold: 0.07, rootMargin: '0px 0px -40px 0px' }
+        );
+        document.querySelectorAll('.reveal').forEach((el) => obs.observe(el));
+      }
+    </script>
   </body>
 </html>

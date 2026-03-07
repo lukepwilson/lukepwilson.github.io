@@ -16,8 +16,9 @@
         <a class="brand" href="#top">Luke Wilson</a>
         <nav class="site-nav" aria-label="Primary">
           <a href="#projects">Projects</a>
+          <a href="#other-projects">More Work</a>
           <a href="#experience">Experience</a>
-          <a href="#skills">Skills</a>
+          <a href="#life">Outside</a>
           <a href="#contact">Contact</a>
         </nav>
       </header>
@@ -27,14 +28,14 @@
           <div class="hero-copy">
             <p class="eyebrow">Communications • RF Systems • RTL • Verification</p>
             <h1>
-              Building hardware and wireless systems for AI, LEO satellites, and
-              the next generation of telecommunications.
+              Sleek hardware systems for machine learning, advanced wireless links,
+              and real-world digital implementation.
             </h1>
             <p class="hero-text">
               I am Luke Wilson, an electrical engineer from San Diego pursuing
               graduate study at UC San Diego. My work spans end-to-end OFDM
-              testbeds, near-field MIMO research, synthesizable RTL, digital
-              verification, and transistor-level circuit design.
+              testbeds, near-field MIMO research, ML accelerator architecture,
+              synthesizable RTL, and verification-driven hardware development.
             </p>
             <div class="hero-actions">
               <a class="button button-primary" href="#projects">View Projects</a>
@@ -42,16 +43,16 @@
             </div>
             <ul class="hero-metrics" aria-label="Highlights">
               <li>
-                <strong>Viterbi</strong>
-                <span>Multi-module decoder with survivor memory and traceback logic</span>
+                <strong>ML</strong>
+                <span>Dual-core attention accelerator with MAC arrays, SRAM hierarchy, and CDC</span>
               </li>
               <li>
-                <strong>UART</strong>
-                <span>End-to-end serial interface with loopback verification</span>
+                <strong>MIMO</strong>
+                <span>Measurement-driven near-field OFDM ground station and wireless evaluation</span>
               </li>
               <li>
-                <strong>LFSR</strong>
-                <span>Programmable message encryptor with memory-backed control</span>
+                <strong>RTL</strong>
+                <span>Portfolio projects spanning decoding, serial links, control, and verification</span>
               </li>
             </ul>
           </div>
@@ -63,9 +64,9 @@
             <div class="hero-signal-card">
               <p class="signal-label">Current focus</p>
               <ul>
-                <li>Wireless communications research</li>
+                <li>ML accelerator architecture</li>
+                <li>Wireless systems research</li>
                 <li>ASIC and RTL implementation</li>
-                <li>Verification-driven hardware development</li>
               </ul>
             </div>
           </div>
@@ -89,37 +90,110 @@
         <section class="section-grid" id="projects">
           <div class="section-heading">
             <p class="eyebrow">Selected Work</p>
-            <h2>Projects that define the portfolio</h2>
+            <h2>Flagship projects</h2>
           </div>
 
           <article class="project project-featured">
             <div class="project-copy">
+              <p class="project-type">Machine Learning Hardware</p>
+              <h3>Dual-Core ML Accelerator for Attention</h3>
+              <p>
+                Architected a synthesizable dual-core accelerator for transformer
+                attention, including 8-column MAC arrays, SRAM-backed dataflow,
+                asynchronous handshaking between cores, and fixed-point L1
+                normalization targeting high-frequency implementation.
+              </p>
+              <ul class="tag-list">
+                <li>SystemVerilog</li>
+                <li>ML Accelerator</li>
+                <li>MAC Array</li>
+                <li>CDC</li>
+                <li>Fixed-Point RTL</li>
+                <li>Architecture</li>
+              </ul>
+              <div class="link-row">
+                <a href="project_files/Dual%20Core%20ML%20Accelerator.md">Design Summary</a>
+              </div>
+            </div>
+            <div class="project-image project-data-panel" aria-label="ML accelerator architecture highlights">
+              <div class="data-chip">
+                <span>Compute</span>
+                <strong>2 cores</strong>
+              </div>
+              <div class="data-chip">
+                <span>Array</span>
+                <strong>8x8 MAC flow</strong>
+              </div>
+              <div class="data-chip">
+                <span>Target</span>
+                <strong>1 GHz</strong>
+              </div>
+              <div class="data-chip">
+                <span>Control</span>
+                <strong>Async handshake</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="project project-featured project-featured-reverse">
+            <figure class="project-image">
+              <img
+                src="images/ofdm_testbed.jpg"
+                alt="OFDM testbed hardware setup for near-field MIMO research"
+              />
+            </figure>
+            <div class="project-copy">
+              <p class="project-type">Wireless Systems Research</p>
+              <h3>Near-Field MIMO Ground Station Testbed</h3>
+              <p>
+                Built an end-to-end OFDM ground station for near-field MIMO
+                experiments, integrating SDR hardware, Python and MATLAB signal
+                processing, CSI extraction, and measurement-driven debugging for
+                channel characterization and system validation.
+              </p>
+              <ul class="tag-list">
+                <li>OFDM</li>
+                <li>MIMO</li>
+                <li>SDR</li>
+                <li>Python</li>
+                <li>MATLAB</li>
+              </ul>
+              <div class="link-row">
+                <a href="project_files/2508.09374v1.pdf">Paper</a>
+                <a href="images/ofdm_testbed.jpg">Testbed Photo</a>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="section-grid" id="other-projects">
+          <div class="section-heading">
+            <p class="eyebrow">Additional Projects</p>
+            <h2>Other work across RTL, protocols, and coding systems</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project">
               <p class="project-type">Digital Design / Communications</p>
               <h3>Viterbi Decoder</h3>
               <p>
                 Implemented a SystemVerilog convolutional encoder and Viterbi
                 decoder chain with branch metric computation, add-compare-select
-                processing, rotating survivor memory banks, and traceback-based
-                decoded output reconstruction.
+                logic, rotating survivor memory banks, and traceback-based output
+                reconstruction.
               </p>
               <ul class="tag-list">
                 <li>SystemVerilog</li>
                 <li>RTL Design</li>
                 <li>Verification</li>
                 <li>Error-Control Coding</li>
-                <li>Waveform Debug</li>
               </ul>
               <div class="link-row">
                 <a href="https://github.com/lukepwilson/Viterbi-Decoder">GitHub Repo</a>
-                <a href="https://github.com/lukepwilson/Viterbi-Decoder/blob/main/docs/project_report.docx">Report</a>
+                <a href="images/viterbi_decoder_waveform.png">Waveform</a>
               </div>
-            </div>
-            <figure class="project-image">
-              <img src="images/viterbi_decoder_waveform.png" alt="Waveform view of the Viterbi decoder system testbench" />
-            </figure>
-          </article>
+            </article>
 
-          <div class="project-grid">
             <article class="project">
               <p class="project-type">Digital Interface Design</p>
               <h3>UART Serial Interface</h3>
@@ -158,27 +232,6 @@
               <div class="link-row">
                 <a href="https://github.com/lukepwilson/lsfr-message-encryptor">GitHub Repo</a>
                 <a href="images/lfsr_message_encryptor_waveform.png">Waveform</a>
-              </div>
-            </article>
-
-            <article class="project visual-project">
-              <img
-                src="images/ofdm_testbed.jpg"
-                alt="OFDM testbed hardware setup"
-              />
-              <div>
-                <p class="project-type">Wireless Systems Research</p>
-                <h3>Near-Field MIMO Ground Station Testbed</h3>
-                <p>
-                  Built an end-to-end OFDM testbed for near-field MIMO research,
-                  integrating SDR hardware, Python and MATLAB pipelines, and
-                  measurement-driven debugging for CSI extraction and link
-                  characterization.
-                </p>
-                <div class="link-row">
-                  <a href="project_files/2508.09374v1.pdf">Paper</a>
-                  <a href="images/ofdm_testbed.jpg">Photo</a>
-                </div>
               </div>
             </article>
           </div>
@@ -280,6 +333,49 @@
           <figure class="credentials-image">
             <img src="images/booker_award.jpg" alt="Luke Wilson receiving the Booker Award" />
           </figure>
+        </section>
+
+        <section class="life-section" id="life">
+          <div class="section-heading">
+            <p class="eyebrow">Outside Engineering</p>
+            <h2>What keeps me sharp away from the bench</h2>
+          </div>
+          <div class="life-grid">
+            <article class="life-card life-card-image">
+              <img src="images/photo_having_fun.jpg" alt="Luke Wilson outside the lab" />
+            </article>
+            <article class="life-card">
+              <h3>Lifting Weights</h3>
+              <p>
+                Strength training keeps me disciplined and consistent. I like the
+                long-term mindset: incremental improvement, solid technique, and
+                showing up repeatedly.
+              </p>
+            </article>
+            <article class="life-card">
+              <h3>Surfing</h3>
+              <p>
+                Surfing is where I reset. It has the same appeal as engineering:
+                reading conditions, reacting quickly, and staying calm when the
+                environment changes.
+              </p>
+            </article>
+            <article class="life-card">
+              <h3>Camping</h3>
+              <p>
+                I like getting away from screens, spending time outdoors, and
+                being in places where everything is simpler and more physical.
+              </p>
+            </article>
+            <article class="life-card">
+              <h3>Cooking</h3>
+              <p>
+                Cooking scratches the same itch as design work: technique,
+                iteration, and craft. I enjoy building something good from a set
+                of raw parts and constraints.
+              </p>
+            </article>
+          </div>
         </section>
 
         <section class="contact-section" id="contact">

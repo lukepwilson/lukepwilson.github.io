@@ -212,6 +212,12 @@ p { color: var(--muted); line-height: 1.7; }
   backdrop-filter: blur(20px);
   padding: 44px;
   box-shadow: var(--shadow);
+  min-width: 0;          /* prevents title from overflowing into the photo column */
+  overflow: hidden;
+}
+
+.hero-visual {
+  min-width: 0;
 }
 
 .hero-copy h1 {
@@ -306,6 +312,7 @@ p { color: var(--muted); line-height: 1.7; }
 .hero-visual {
   display: grid;
   gap: 16px;
+  min-width: 0;
 }
 
 .portrait-card {
@@ -323,46 +330,50 @@ p { color: var(--muted); line-height: 1.7; }
 }
 
 .hero-status-card {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.84rem;
   background: rgba(5, 14, 26, 0.9);
-  border: 1px solid rgba(34, 211, 238, 0.22);
+  border: 1px solid rgba(34, 211, 238, 0.2);
   border-radius: var(--radius-xl);
-  padding: 22px 24px;
+  padding: 24px 26px;
   backdrop-filter: blur(20px);
   box-shadow: var(--shadow);
 }
 
 .status-label {
-  font-size: 0.7rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem;
+  font-weight: 600;
   color: var(--green);
-  margin-bottom: 16px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
+  margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(34, 211, 238, 0.1);
 }
 
 .hero-status-card ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 13px;
 }
 
 .hero-status-card li {
   display: flex;
   align-items: center;
-  gap: 10px;
-  color: var(--muted);
+  gap: 12px;
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 .dot {
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   flex-shrink: 0;
 }
-.dot-green { background: var(--green); box-shadow: 0 0 7px var(--green); }
-.dot-cyan  { background: var(--cyan);  box-shadow: 0 0 7px var(--cyan); }
-.dot-amber { background: var(--amber); box-shadow: 0 0 7px var(--amber); }
+.dot-green { background: var(--green); box-shadow: 0 0 8px var(--green); }
+.dot-cyan  { background: var(--cyan);  box-shadow: 0 0 8px var(--cyan); }
+.dot-amber { background: var(--amber); box-shadow: 0 0 8px var(--amber); }
 
 /* ============================================================
    FOCUS STRIP
@@ -560,7 +571,7 @@ p { color: var(--muted); line-height: 1.7; }
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
-  padding: 32px 36px;
+  padding: 36px;
   box-shadow: var(--shadow);
 }
 
@@ -568,15 +579,11 @@ p { color: var(--muted); line-height: 1.7; }
   display: grid;
   grid-template-columns: 210px 1fr;
   gap: 28px;
-  padding-bottom: 26px;
-  margin-bottom: 26px;
+  padding: 28px 0;                          /* equal space above and below each divider */
   border-bottom: 1px solid rgba(34, 211, 238, 0.08);
 }
-.timeline-item:last-child {
-  padding-bottom: 0;
-  margin-bottom: 0;
-  border-bottom: none;
-}
+.timeline-item:first-child { padding-top: 0; }
+.timeline-item:last-child  { padding-bottom: 0; border-bottom: none; }
 
 .timeline-meta { padding-top: 3px; }
 
@@ -667,8 +674,9 @@ p { color: var(--muted); line-height: 1.7; }
    ============================================================ */
 .life-grid {
   display: grid;
-  grid-template-columns: 1.1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);   /* equal columns so borders line up evenly */
   gap: 16px;
+  align-items: stretch;
 }
 
 .life-card {
